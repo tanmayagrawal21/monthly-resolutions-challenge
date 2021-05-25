@@ -1,0 +1,115 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */;
+}
+
+.clear {
+	clear: both;
+}
+
+ html{
+   background-image:url('https://blog.bibleclipart.net/wp-content/uploads/2016/02/blank-squared-notebook-sheet-paper-background.jpg');
+ }
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+
+
+#about img{
+  border-radius: 70px;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+#main .credits{
+  color: lightgray;
+}
+
+hr{
+  border-color: 2px solid lightgray;
+}
+
+
+#header p{
+  text-align: center;
+}
+
+#main p{
+  text-align: left;
+}
+
+#about p{
+  text-align: left;
+}
+
+#about ul li{
+  text-align: left;
+}
+
+#about h2, #main h1{
+  text-align: left;
+}
+#about a{
+  text-decoration: none;
+  color: orange;
+}
+
+@media screen and (min-width:1080px) {
+  #main{
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+    width: 60%;
+    float: left;
+  }
+  
+  #about{
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+    width: 20%;
+    float:left;
+  }
+}
+@media screen and (max-width:1080px) {
+  #main{
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+  }
+  
+  #about{
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+  }
+}
+
+#quote{
+  border-left: 2px solid lightgray;
+  padding: 10px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.header{
+  padding: 20px;
+}
